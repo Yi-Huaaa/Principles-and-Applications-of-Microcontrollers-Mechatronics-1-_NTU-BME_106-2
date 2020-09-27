@@ -1,0 +1,34 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\asce0\Desktop\lab11_group18\lab11_group18\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>D:/7.0\Packs\atmel\ATmega_DFP\1.2.150\avrasm\inc</DIR>
+  <DIR>D:\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\asce0\Desktop\lab11_group18\lab11_group18\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>D:/7.0\Packs\atmel\ATmega_DFP\1.2.150\avrasm\inc\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\asce0\Desktop\lab11_group18\lab11_group18\Debug\lab11_group18.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>lab11_group18.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>lab11_group18.map</FILE>
+  <FILE>lab11_group18.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <l1><FILE>C:\Users\asce0\Desktop\lab11_group18\lab11_group18\main.asm</FILE><LINE>25</LINE></l1>
+  <l2><FILE>C:\Users\asce0\Desktop\lab11_group18\lab11_group18\main.asm</FILE><LINE>30</LINE></l2>
+  <l3><FILE>C:\Users\asce0\Desktop\lab11_group18\lab11_group18\main.asm</FILE><LINE>35</LINE></l3>
+  <l4><FILE>C:\Users\asce0\Desktop\lab11_group18\lab11_group18\main.asm</FILE><LINE>40</LINE></l4>
+  <l5><FILE>C:\Users\asce0\Desktop\lab11_group18\lab11_group18\main.asm</FILE><LINE>45</LINE></l5>
+  <l6><FILE>C:\Users\asce0\Desktop\lab11_group18\lab11_group18\main.asm</FILE><LINE>50</LINE></l6>
+  <l7><FILE>C:\Users\asce0\Desktop\lab11_group18\lab11_group18\main.asm</FILE><LINE>55</LINE></l7>
+  <l8><FILE>C:\Users\asce0\Desktop\lab11_group18\lab11_group18\main.asm</FILE><LINE>60</LINE></l8>
+ </LABELS>
+</ASSEMBLER_INFO>

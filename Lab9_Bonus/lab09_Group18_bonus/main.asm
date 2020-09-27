@@ -1,0 +1,144 @@
+LDI R20, 0xFF
+OUT DDRD, R20
+LDI R31, 0x0
+OUT DDRB, R31
+
+LDI R21, 0b10000000 //0
+MOV R1, R21
+LDI R22, 0b11111001 //1
+MOV R2, R22
+LDI R23, 0b01001000 //2
+MOV R3, R23
+LDI R24, 0b01100000 //3
+MOV R4, R24
+LDI R25, 0b00110001//4
+MOV R5, R25
+LDI R26, 0b00100100 //5
+MOV R6, R26
+LDI R27, 0b00000100 //6
+MOV R7, R27
+LDI R28, 0b10110010 //7
+MOV R8, R28
+LDI R29, 0b00000000 //8
+MOV R9, R29
+LDI R30, 0b00100000 //9
+MOV R10, R30
+
+LDI R30, 0b00000001 //個位數
+LDI R29, 0b00000010 //十位數
+
+
+L7:
+	//CALL ZERO
+	//CALL DELAY_BIG 
+
+	CALL ONE
+	//CALL DELAY_BIG
+//
+
+/*LDI R20, 0xFF
+OUT DDRD, R20
+LDI R31, 0x0
+OUT DDRB, R31*/
+
+
+
+ZERO:
+	L0: LDI R21, 0xFF
+		OUT PORTB, R30
+		OUT PORTD, R1
+		CALL DELAY
+		LDI R21, 0xFF
+		OUT PORTB, R30
+		OUT PORTD, R1
+		CALL DELAY
+		//DEC R21
+		//BRNE L0
+	
+
+//CALL DELAY_BIG
+/*LDI R20, 0xFF
+OUT DDRD, R20
+LDI R31, 0x0
+OUT DDRB, R31*/
+
+ONE:
+	L1: LDI R22, 0xFF
+		OUT PORTB, R30
+		OUT PORTD, R2
+		CALL DELAY
+		LDI R21, 0xFF
+		OUT PORTB, R29
+		OUT PORTD, R1
+		CALL DELAY
+
+		//LDI R22, 0x00
+		//DEC R22
+		//LDI R22,! 0x0
+		//BRNE L1
+		//BREAK
+		//CALL DELAY_BIG
+/*	
+mov si,offset s ; offset is to mov z CMP 
+mov [si],word ptr 0 
+xor CX,CX ; 這行等同於 mov CX,0 
+LoopCount: 
+add CX,2 
+add [si],CX 
+CMP CX,150 
+jne LoopCount 
+MOV AX,[si] ; 我刻意將值移到AX暫存器另你可以檢視是否正確 
+int 3 ; 這行是除錯中斷,程式於debug mode會執行到這裡暫停 
+mov ah,4ch ; 這兩行是離開程式 
+int 21h 
+BOOT ENDP 
+s dw 01234h 
+
+SEG_A ENDS 
+END START 
+
+*/
+
+
+
+	//BRNE L1
+	//RET
+	
+	//BREAK
+//CALL DELAY_BIG
+
+
+DELAY:LDI R17, 0
+L2:		LDI R18, 0x00
+L3:		LDI R19, 0x00
+L4:		DEC R19
+		BRNE L4
+		DEC R18
+		BRNE L3
+		DEC R17
+		BRNE L2
+		RET
+
+DELAY_BIG:LDI R17, 1
+L5:		LDI R18, 0xFF
+L6:		LDI R19, 0xFF
+L8:		DEC R19
+		BRNE L8
+		DEC R18
+		BRNE L6
+		DEC R17
+		BRNE L5
+		RET
+
+
+//DELAY_BIG:LDI R17, 12
+/*L4:		LDI R18, 0xFF
+L5:		LDI R19, 0xFF
+L6:		DEC R19
+		BRNE L6
+		DEC R18
+		BRNE L5
+		DEC R17
+		BRNE L4
+		RET
+		*/

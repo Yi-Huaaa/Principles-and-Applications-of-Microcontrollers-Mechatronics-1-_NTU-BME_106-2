@@ -1,0 +1,39 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\asce0\Documents\Atmel Studio\7.0\lab09_Group18_bonus\lab09_Group18_bonus\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>D:/7.0\Packs\atmel\ATmega_DFP\1.2.150\avrasm\inc</DIR>
+  <DIR>D:\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\asce0\Documents\Atmel Studio\7.0\lab09_Group18_bonus\lab09_Group18_bonus\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>D:/7.0\Packs\atmel\ATmega_DFP\1.2.150\avrasm\inc\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\asce0\Documents\Atmel Studio\7.0\lab09_Group18_bonus\lab09_Group18_bonus\Debug\lab09_Group18_bonus.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>lab09_Group18_bonus.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>lab09_Group18_bonus.map</FILE>
+  <FILE>lab09_Group18_bonus.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <L7><FILE>C:\Users\asce0\Documents\Atmel Studio\7.0\lab09_Group18_bonus\lab09_Group18_bonus\main.asm</FILE><LINE>30</LINE></L7>
+  <L8><FILE>C:\Users\asce0\Documents\Atmel Studio\7.0\lab09_Group18_bonus\lab09_Group18_bonus\main.asm</FILE><LINE>31</LINE></L8>
+  <ONE><FILE>C:\Users\asce0\Documents\Atmel Studio\7.0\lab09_Group18_bonus\lab09_Group18_bonus\main.asm</FILE><LINE>63</LINE></ONE>
+  <ZERO><FILE>C:\Users\asce0\Documents\Atmel Studio\7.0\lab09_Group18_bonus\lab09_Group18_bonus\main.asm</FILE><LINE>45</LINE></ZERO>
+  <L0><FILE>C:\Users\asce0\Documents\Atmel Studio\7.0\lab09_Group18_bonus\lab09_Group18_bonus\main.asm</FILE><LINE>46</LINE></L0>
+  <DELAY><FILE>C:\Users\asce0\Documents\Atmel Studio\7.0\lab09_Group18_bonus\lab09_Group18_bonus\main.asm</FILE><LINE>106</LINE></DELAY>
+  <L1><FILE>C:\Users\asce0\Documents\Atmel Studio\7.0\lab09_Group18_bonus\lab09_Group18_bonus\main.asm</FILE><LINE>64</LINE></L1>
+  <L2><FILE>C:\Users\asce0\Documents\Atmel Studio\7.0\lab09_Group18_bonus\lab09_Group18_bonus\main.asm</FILE><LINE>107</LINE></L2>
+  <L3><FILE>C:\Users\asce0\Documents\Atmel Studio\7.0\lab09_Group18_bonus\lab09_Group18_bonus\main.asm</FILE><LINE>108</LINE></L3>
+  <DELAY_BIG><FILE>C:\Users\asce0\Documents\Atmel Studio\7.0\lab09_Group18_bonus\lab09_Group18_bonus\main.asm</FILE><LINE>117</LINE></DELAY_BIG>
+  <L4><FILE>C:\Users\asce0\Documents\Atmel Studio\7.0\lab09_Group18_bonus\lab09_Group18_bonus\main.asm</FILE><LINE>118</LINE></L4>
+  <L5><FILE>C:\Users\asce0\Documents\Atmel Studio\7.0\lab09_Group18_bonus\lab09_Group18_bonus\main.asm</FILE><LINE>119</LINE></L5>
+  <L6><FILE>C:\Users\asce0\Documents\Atmel Studio\7.0\lab09_Group18_bonus\lab09_Group18_bonus\main.asm</FILE><LINE>120</LINE></L6>
+ </LABELS>
+</ASSEMBLER_INFO>

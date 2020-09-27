@@ -1,0 +1,31 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\asce0\Documents\Atmel Studio\7.0\lab09_group18_basic-1\lab09_group18_basic-1\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>D:/7.0\Packs\atmel\ATmega_DFP\1.2.150\avrasm\inc</DIR>
+  <DIR>D:\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\asce0\Documents\Atmel Studio\7.0\lab09_group18_basic-1\lab09_group18_basic-1\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>D:/7.0\Packs\atmel\ATmega_DFP\1.2.150\avrasm\inc\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\asce0\Documents\Atmel Studio\7.0\lab09_group18_basic-1\lab09_group18_basic-1\Debug\lab09_group18_basic-1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>lab09_group18_basic-1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>lab09_group18_basic-1.map</FILE>
+  <FILE>lab09_group18_basic-1.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <L1><FILE>C:\Users\asce0\Documents\Atmel Studio\7.0\lab09_group18_basic-1\lab09_group18_basic-1\main.asm</FILE><LINE>23</LINE></L1>
+  <DELAY><FILE>C:\Users\asce0\Documents\Atmel Studio\7.0\lab09_group18_basic-1\lab09_group18_basic-1\main.asm</FILE><LINE>353</LINE></DELAY>
+  <L2><FILE>C:\Users\asce0\Documents\Atmel Studio\7.0\lab09_group18_basic-1\lab09_group18_basic-1\main.asm</FILE><LINE>354</LINE></L2>
+  <L3><FILE>C:\Users\asce0\Documents\Atmel Studio\7.0\lab09_group18_basic-1\lab09_group18_basic-1\main.asm</FILE><LINE>355</LINE></L3>
+  <L4><FILE>C:\Users\asce0\Documents\Atmel Studio\7.0\lab09_group18_basic-1\lab09_group18_basic-1\main.asm</FILE><LINE>356</LINE></L4>
+ </LABELS>
+</ASSEMBLER_INFO>
