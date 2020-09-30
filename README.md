@@ -8,11 +8,11 @@ Topics: Constant temperature detection system
 Using language: AVR Assembly  
 Microcontroller: Arduino  
 Sensors: (1) DS18B20 Temperature Sensor,  
-![image](https://github.com/Yi-Huaaa/Principles-and-Applications-of-Microcontrollers-Mechatronics-1-_NTU-BME_106-2/blob/master/Android%20app_Buetooth/ds18b20.jpg)  
+<div align=center>![image](https://github.com/Yi-Huaaa/Principles-and-Applications-of-Microcontrollers-Mechatronics-1-_NTU-BME_106-2/blob/master/Android%20app_Buetooth/ds18b20.jpg)  
          (2) LCD module, I2C protocal.  
-<img width="400" height="400" src="https://imgaz1.staticbg.com/thumb/large/oaupload/banggood/images/BB/9F/ccd362c3-1458-4052-bb74-e23cfa429fe4.jpg"/>  
+<div align=center><img width="400" height="400" src="https://imgaz1.staticbg.com/thumb/large/oaupload/banggood/images/BB/9F/ccd362c3-1458-4052-bb74-e23cfa429fe4.jpg"/>  
 Bluetooth module development: APP INVENTOR  
-<img width="400" height="400" src="https://github.com/Yi-Huaaa/Principles-and-Applications-of-Microcontrollers-Mechatronics-1-_NTU-BME_106-2/blob/master/app_inventor.png"/>
+<div align=center><img width="700" height="700" src="https://github.com/Yi-Huaaa/Principles-and-Applications-of-Microcontrollers-Mechatronics-1-_NTU-BME_106-2/blob/master/app_inventor.png"/>
 
 
 ## Details
