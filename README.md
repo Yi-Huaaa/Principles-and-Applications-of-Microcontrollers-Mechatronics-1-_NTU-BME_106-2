@@ -4,14 +4,14 @@
 1. Homework and final-project
 
 ## Final Project
-Topics: Constant temperature detection system 
-Using language: AVR Assembly
-Microcontroller: Arduino 
+Topics: Constant temperature detection system  
+Using language: AVR Assembly  
+Microcontroller: Arduino  
 Sensors: (1) DS18B20 Temperature Sensor,  
-![image](https://github.com/Yi-Huaaa/Principles-and-Applications-of-Microcontrollers-Mechatronics-1-_NTU-BME_106-2/blob/master/Android%20app_Buetooth/ds18b20.jpg)
+![image](https://github.com/Yi-Huaaa/Principles-and-Applications-of-Microcontrollers-Mechatronics-1-_NTU-BME_106-2/blob/master/Android%20app_Buetooth/ds18b20.jpg)  
          (2) LCD module, I2C protocal.  
-![image](https://imgaz1.staticbg.com/thumb/large/oaupload/banggood/images/BB/9F/ccd362c3-1458-4052-bb74-e23cfa429fe4.jpg)  
-Bluetooth module development: APP INVENTOR 
+![image](https://imgaz1.staticbg.com/thumb/large/oaupload/banggood/images/BB/9F/ccd362c3-1458-4052-bb74-e23cfa429fe4.jpg ,width = 500)  
+Bluetooth module development: APP INVENTOR  
 ![image] (https://github.com/Yi-Huaaa/Principles-and-Applications-of-Microcontrollers-Mechatronics-1-_NTU-BME_106-2/blob/master/app_inventor.png)
 
 
